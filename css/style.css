@@ -57,3 +57,29 @@ header{
 .icon:hover {
     transform: scale(1.1);
 }
+
+.hero{
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: #f8f8f8;
+}
+.hero h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+}
+.hero-button{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background: #e67e22;
+    color: #f8f8f8;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 18px;
+    transform: 0.3s;
+}
+.hero-button:hover{
+    background: #d35400;
+    transform: scale(1.03);
+}
