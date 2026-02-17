@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+body {
+    background-color: #f8f8f8;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#2c3e50;
+    padding: 15px 30px;
+    color: #f8f8f8;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px  ;
+}
+.logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.logo-text{
+    font-size: 24px;
+}
+.nav-buttons{
+    display: flex;
+    gap: 20px;
+}
+.nav-button{
+    color: #f8f8f8;
+    text-decoration: none; /* Свойство удаляет встроенное подчеркивание тэга а  */
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+.nav-button:hover{
+    background: #e67e22;
+    border-radius: 20px;
+}
+.icons {
+    display: flex;
+    gap: 15px;
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer; /* Гимик для установки прикольного курсора*/
+    filter: invert(1);
+    transition: 0.3s;
+}
+.icon:hover {
+    transform: scale(1.1);
+}
