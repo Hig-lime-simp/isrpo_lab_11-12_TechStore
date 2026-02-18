@@ -109,7 +109,7 @@ header{
     transition: 0.3s;
 }
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-5px);
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
 }
 .card img{
